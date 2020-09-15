@@ -9,5 +9,5 @@ for char in str1:
         lower.append(char)
     else:
         upper.append(char)
-sorted_string = "" .join(upper+lower)
+sorted_string = "" .join(lower+upper)
 print(sorted_string)
